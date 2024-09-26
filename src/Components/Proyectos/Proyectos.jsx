@@ -19,15 +19,15 @@ const Proyectos = () => {
       <div className="absolute left-0 top-0 lg:w-[550px] z-0">
         <img src={vector} alt="" />
       </div>
-      <h2 className="text-3xl ml-2 font-bold md:mt-5 lg:mt-[25px] lg:text-5xl">
+      <h2 className="text-center text-3xl ml-2 font-bold md:mt-5 lg:mt-[25px] lg:text-5xl">
         Proyecto Audiovisual: Exodo Galactico!
       </h2>
-      <section className="border border-black">
+      <section>
         <div className="mt-10 flex flex-row flex-wrap justify-center items-center p-2 gap-6  lg:gap-4">
           <iframe
             className=""
-            width="672"
-            height="378"
+            width="874"
+            height="491"
             src="https://www.youtube.com/embed/N0I5acBGtkc?si=kurFj3Hr1Ar9gVGw"
             title="YouTube video player"
             frameborder="0"
@@ -38,8 +38,11 @@ const Proyectos = () => {
         </div>
       </section>
 
-      <section className=" border-2 border-danger-900">
-        <h2 className="text-3xl ml-2 font-bold mb-10 md:mt-5 lg:mt-[25px] lg:text-5xl">
+      <section className="mt-20">
+        {/* <h2 className="text-3xl ml-2 font-bold mb-10 md:mt-5 lg:mt-[25px] lg:text-5xl">
+          De la Idea a la Realidad: Conoce como fue el proceso
+        </h2> */}
+        <h2 className="mb-6 mt-6 font-bold text-2xl text-center mx-1 lg:text-4xl 2xl:mb-[32px]">
           De la Idea a la Realidad: Conoce como fue el proceso
         </h2>
         <div className="flex flex-col">
@@ -48,7 +51,7 @@ const Proyectos = () => {
           </h3> */}
           <div className="m-auto mb-4 grid grid-cols-2 justify-center items-center">
             <div className="p-4 mb-3 text-center w-full max-w-md break-words">
-              <p className="font-bold mb-3 text-base mx-1 lg:text-2xl">
+              <p className="text-[#9333ea] font-bold mb-3 text-base mx-1 lg:text-2xl">
                 Del Concepto al 3D: Esculpido Digital y Arte Conceptual
               </p>
               <p>
@@ -78,7 +81,7 @@ const Proyectos = () => {
           </h3> */}
           <div className="m-auto mb-4 grid grid-cols-2 justify-center items-center">
             <div className="p-4 text-center w-full max-w-md break-words">
-              <p className="font-bold mb-3 text-base mx-1 lg:text-2xl">
+              <p className="text-[#9333ea] font-bold mb-3 text-base mx-1 lg:text-2xl">
                 El Arte del Modelado 3D: Creación de Objetos Detallados
               </p>
               <p>
@@ -108,7 +111,7 @@ const Proyectos = () => {
           </h3> */}
           <div className="m-auto mb-4 grid grid-cols-2 justify-center items-center">
             <div className="p-4 text-center w-full max-w-md break-words">
-              <p className="font-bold mb-3 text-base mx-1 lg:text-2xl">
+              <p className="text-[#9333ea] font-bold mb-3 text-base mx-1 lg:text-2xl">
                 Rigging y Deformación de Personaje
               </p>
               <p>
@@ -139,7 +142,7 @@ const Proyectos = () => {
           </h3> */}
           <div className="m-auto mb-4 grid grid-cols-2 justify-center items-center">
             <div className="p-4 text-center w-full max-w-md break-words">
-              <p className="font-bold mb-3 text-base mx-1 lg:text-2xl">
+              <p className="text-[#9333ea] font-bold mb-3 text-base mx-1 lg:text-2xl">
                 Presentando los Planos: Diseño y Estructura de mi Proyecto
                 Audiovisual
               </p>

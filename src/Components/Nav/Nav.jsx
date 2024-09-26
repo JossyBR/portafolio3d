@@ -24,33 +24,37 @@ const Nav = () => {
         <img src={vector} alt="" />
       </div>
       <div className="flex justify-center relative">
-        <h5 className={`text-3xl text-center lg:ml-3 lg:text-4xl z-10`}>JB</h5>
+        <h5
+          className={`text-[#9333ea] text-3xl text-center lg:ml-3 lg:text-4xl z-10`}
+        >
+          JB
+        </h5>
       </div>
       <div className="hidden lg:flex justify-center relative">
         {/* Mostrar el otro menú en pantallas más grandes */}
         <div className="flex flex-row gap-2 lg:gap-10 sm:gap-5">
           <a
             href="#inicio"
-            className="border-b-2 border-transparent hover:border-[#FF9143] text-xs sm:text-sm md:text-base lg:text-lg"
+            className="border-b-2 border-transparent hover:border-[#9333ea] text-xs sm:text-sm md:text-base lg:text-lg"
           >
             Inicio
           </a>
           <a
             href="#acerca"
-            className="border-b-2 border-transparent hover:border-[#FF9143] text-xs sm:text-sm md:text-base lg:text-lg"
+            className="border-b-2 border-transparent hover:border-[#9333ea] text-xs sm:text-sm md:text-base lg:text-lg"
           >
             Acerca de Mi
           </a>
           <a
             href="#proyectos"
-            className="border-b-2 border-transparent hover:border-[#FF9143] text-xs sm:text-sm md:text-base lg:text-lg"
+            className="border-b-2 border-transparent hover:border-[#9333ea] text-xs sm:text-sm md:text-base lg:text-lg"
           >
             Proyectos
           </a>
 
           <a
             href="#contactame"
-            className="border-b-2 border-transparent hover:border-[#FF9143] text-xs sm:text-sm md:text-base lg:text-lg"
+            className="border-b-2 border-transparent hover:border-[#9333ea] text-xs sm:text-sm md:text-base lg:text-lg"
           >
             Contactame
           </a>

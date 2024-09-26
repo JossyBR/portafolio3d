@@ -71,7 +71,7 @@ export const Formulario = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <h4 className="text-[#FF9143] font-bold text-[32px]">
+      <h4 className="text-[#9333ea] font-bold text-[32px]">
         Trabajemos Juntos
       </h4>
       <form
@@ -131,7 +131,7 @@ export const Formulario = () => {
           <Button
             type="submit"
             className="mt-6 bg-transparent border-2
-            border-[#FF9143] text-[#FF9143] font-semibold opacity-70 hover:opacity-100 hover:scale-105"
+            border-[#9333ea] text-[#9333ea] font-semibold opacity-70 hover:opacity-100 hover:scale-105"
           >
             Enviar
           </Button>

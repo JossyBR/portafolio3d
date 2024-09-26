@@ -46,7 +46,7 @@ const Inicio = () => {
             Hola <br />{" "}
             <span className="text-3xl leading-loose font-bold sm:text-4xl lg:text-5xl">
               Soy{" "}
-              <span className="text-[#FF9143] leading-loose">
+              <span className="text-[#9333ea] leading-loose">
                 Jossy Benitez
               </span>
             </span>
