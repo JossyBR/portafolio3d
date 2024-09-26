@@ -1,15 +1,22 @@
 import React, { useState, useEffect } from "react";
 import { Button, Image } from "@nextui-org/react";
 import styles from "./inicio.module.css";
+// import { Image } from "@nextui-org/image";
 import {
-  css,
-  html,
-  javascript,
-  react,
-  node,
-  redux,
-  php,
-  figma,
+  dona,
+  nave,
+  personaje,
+  pistola,
+  silla,
+  tennis,
+  // css,
+  // html,
+  // javascript,
+  // react,
+  // node,
+  // redux,
+  // php,
+  // figma,
   vector,
 } from "../../assets";
 
@@ -21,7 +28,7 @@ const Inicio = () => {
     const animationDuration = 3000;
 
     const loopAnimation = () => {
-      setCurrentImage((prev) => (prev % 8) + 1);
+      setCurrentImage((prev) => (prev % 6) + 1);
     };
 
     const intervalId = setInterval(loopAnimation, animationDuration);
@@ -53,11 +60,13 @@ const Inicio = () => {
           </div>
         </div>
         <div
-          className={`${styles.targetParentElement}relative w-16 h-16 md:w-24 md:h-24`}
+          className={`${styles.targetParentElement}relative w-16 h-16 md:w-96 md:h-80`}
         >
+          <Image src={personaje} className="h-80 w-96 rotate-3" />
+          {/* <img src={personaje} /> */}
           {/* Imágenes de habilidades */}
-          <img
-            src={css}
+          {/* <img
+            src={dona}
             className={`${styles.yourAnimation} ${tamano} ${
               // Si currentImage es 1, no se aplica la clase hideImage, de lo contrario, se aplica
               currentImage === 1 ? "" : styles.hideImage
@@ -65,41 +74,41 @@ const Inicio = () => {
             alt="Imagen 1"
           />
           <img
-            src={html}
+            src={nave}
             className={`${styles.yourAnimation} ${tamano} ${
               currentImage === 2 ? "" : styles.hideImage
             }`}
             alt="Imagen 2"
           />
           <img
-            src={javascript}
+            src={personaje}
             className={`${styles.yourAnimation} ${tamano} ${
               currentImage === 3 ? "" : styles.hideImage
             }`}
             alt="Imagen 3"
           />
           <img
-            src={react}
+            src={pistola}
             className={`${styles.yourAnimation} ${tamano} ${
               currentImage === 4 ? "" : styles.hideImage
             }`}
             alt="Imagen 4"
           />
           <img
-            src={node}
+            src={tennis}
             className={`${styles.yourAnimation} ${tamano} ${
               currentImage === 5 ? "" : styles.hideImage
             }`}
             alt="Imagen 5"
           />
           <img
-            src={redux}
+            src={silla}
             className={`${styles.yourAnimation} ${tamano} ${
               currentImage === 6 ? "" : styles.hideImage
             }`}
             alt="Imagen 6"
-          />
-          <img
+          /> */}
+          {/* <img
             src={php}
             className={`${styles.yourAnimation} ${tamano} ${
               currentImage === 7 ? "" : styles.hideImage
@@ -113,8 +122,8 @@ const Inicio = () => {
             } w-16 h-16 md:w-24 md:h-24 top-0 ${
               currentImage === 8 ? "" : styles.hideImage
             }`}
-            alt="Imagen 8"
-          />
+            alt="Imagen 8" */}
+          {/* /> */}
         </div>
       </div>
     </div>
