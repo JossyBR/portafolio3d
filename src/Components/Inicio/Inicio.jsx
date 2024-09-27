@@ -55,14 +55,17 @@ const Inicio = () => {
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:w-48 md:h-48">
             {" "}
             {/* Ajusta el tamaño del contenedor del vector */}
-            <img src={vector} alt="Imagen" className="w-full h-full" />{" "}
+            {/* <img src={vector} alt="Imagen" className="w-full h-full" />{" "} */}
             {/* Ajusta el tamaño del vector */}
           </div>
         </div>
         <div
-          className={`${styles.targetParentElement}relative w-16 h-16 md:w-96 md:h-80`}
+          className={`${styles.targetParentElement}relative w-60 h-60 md:w-96 md:h-80`}
         >
-          <Image src={personaje} className="h-80 w-96 rotate-3" />
+          <Image
+            src={personaje}
+            className="w-60 h-60 md:w-96 md:h-80 rotate-3"
+          />
           {/* <img src={personaje} /> */}
           {/* Imágenes de habilidades */}
           {/* <img

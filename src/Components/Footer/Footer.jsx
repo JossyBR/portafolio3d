@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="bg-black min-h-screen">
       <div className="h-16"></div>
-      <h2 className="text-3xl mt-[25px] font-bold lg:text-5xl lg:mb-7 ml-2">
+      <h2 className="text-xl text-white  mt-[25px] font-bold md:text-3xl lg:text-5xl lg:mb-7 ml-2">
         Contacto
       </h2>
       <div className="flex flex-col items-center">

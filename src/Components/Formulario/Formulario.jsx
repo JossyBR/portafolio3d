@@ -71,7 +71,7 @@ export const Formulario = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <h4 className="text-[#9333ea] font-bold text-[32px]">
+      <h4 className="text-[#9333ea] text-xl font-bold md:text-[32px]">
         Trabajemos Juntos
       </h4>
       <form

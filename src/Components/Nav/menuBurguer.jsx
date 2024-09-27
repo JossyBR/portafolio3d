@@ -7,13 +7,14 @@ import {
 } from "@material-tailwind/react";
 
 import { ep_menu } from "../../assets";
+// className="bg-[#9333ea]"
 
 export function MenuDefault() {
   return (
     <Menu>
       <MenuHandler>
-        <div className="mb-2 flex items-center gap-4 p-4">
-          <img src={ep_menu} alt="brand" className="h-8 w-8 " />
+        <div className="mb-2 flex items-center gap-4 p-4 ">
+          <img src={ep_menu} alt="brand" className="h-8 w-8  bg-[#9333ea]" />
         </div>
         {/* <Button>Menu</Button> */}
       </MenuHandler>

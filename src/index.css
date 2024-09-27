@@ -12,14 +12,15 @@
   background-color: #f5f3ff;
   color: #000000;
   /* background-image: linear-gradient(to bottom, #ffffff, #d8b4fe, #c084fc); */
-  /* border: 2px solid red; */
+  border: 2px solid red;
   /* color: #ffffff; */
   /* display: flex;
   justify-content: center;
   align-content: center; */
 }
 
-p {
+p,
+a {
   font-family: "Rubik", sans-serif;
 }
 
