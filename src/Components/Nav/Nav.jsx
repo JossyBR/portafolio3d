@@ -136,7 +136,7 @@ const Nav = () => {
         <div className="flex flex-row gap-2 lg:gap-10 sm:gap-5">
           <a
             href="#inicio"
-            className={`border-b-2 border-transparent hover:border-[#9333ea] text-xs sm:text-sm md:text-base lg:text-lg ${
+            className={`border-b-2 border-transparent hover:border-[#9333ea] font-bold text-xs sm:text-sm md:text-base lg:text-lg ${
               isInContactSection ? "text-white" : "text-black"
             }`}
           >
@@ -144,7 +144,7 @@ const Nav = () => {
           </a>
           <a
             href="#acerca"
-            className={`border-b-2 border-transparent hover:border-[#9333ea] text-xs sm:text-sm md:text-base lg:text-lg ${
+            className={`border-b-2 border-transparent hover:border-[#9333ea] font-bold text-xs sm:text-sm md:text-base lg:text-lg ${
               isInContactSection ? "text-white" : "text-black"
             }`}
           >
@@ -152,7 +152,7 @@ const Nav = () => {
           </a>
           <a
             href="#proyectos"
-            className={`border-b-2 border-transparent hover:border-[#9333ea] text-xs sm:text-sm md:text-base lg:text-lg ${
+            className={`border-b-2 border-transparent hover:border-[#9333ea] font-bold text-xs sm:text-sm md:text-base lg:text-lg ${
               isInContactSection ? "text-white" : "text-black"
             }`}
           >
@@ -160,7 +160,7 @@ const Nav = () => {
           </a>
           <a
             href="#contactame"
-            className={`border-b-2 border-transparent hover:border-[#9333ea] text-xs sm:text-sm md:text-base lg:text-lg ${
+            className={`border-b-2 border-transparent hover:border-[#9333ea] font-bold text-xs sm:text-sm md:text-base lg:text-lg ${
               isInContactSection ? "text-white" : "text-black"
             }`}
           >

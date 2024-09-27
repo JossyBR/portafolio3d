@@ -20,9 +20,9 @@ const Acerca = () => {
 
   return (
     <div className="flex justify-center items-center min-h-screen relative">
-      <div className="absolute left-0 top-0 lg:w-[700px] lg:h-[700px] z-0">
+      {/* <div className="absolute left-0 top-0 lg:w-[700px] lg:h-[700px] z-0">
         <img src={vector} alt="" />
-      </div>
+      </div> */}
       <div
         className={`${styles.content} border-2 w-80 h-auto p-2 flex flex-col items-center text-black gap-8 rounded-lg z-10 sm:w-[550px] lg:gap-4 lg:flex-row lg:w-[800px] lg:h-[500px] 2xl:w-[967px] 2xl:h-[700px]`}
       >
@@ -38,24 +38,22 @@ const Acerca = () => {
             Acerca de Mi
           </h3>
           <p className="text-xs text-justify mx-1 sm:text-sm 2xl:text-base ">
-            ¡Hola! Soy Jossy Benitez, FullStack Web Developer con habilidades en
-            HTML, CSS, JavaScript, PHP, React, Redux, Express, Node.js, Figma y
-            Blender, disfruto del diseño y la animación 3D, fusionando estas
-            habilidades con una formación en administración en seguridad y salud
-            en el trabajo. <br />
-            <br /> He trabajado en diversos proyectos, desde el desarrollo de
-            sitios informativos, aplicaciones con conexión a APIs, Sistemas de
-            Gestión académicos, hasta la creación de marketplaces y eCommerce.
-            Busco crear experiencias visuales combinando programación y
-            animación. <br />
-            <br /> Me agrada la idea de diseñar piezas gráficas dinámicas que
-            transmitan conceptos de manera clara, contribuyendo
-            significativamente a mejorar la retención de información en diversos
-            contextos. <br />
-            <br /> Todo lo anterior con el propósito de aportar mediante la
-            programación y la animación 3D, generando impacto en cualquier
-            entorno donde pueda presentar alternativas de manera innovadora y
-            efectiva.
+            ¡Hola! Soy Jossy Benitez, artista 3D y desarrolladora FullStack con
+            experiencia en tecnologías como HTML, CSS, JavaScript, PHP, Laravel,
+            Next.js, React, Redux, Express, Node.js, Figma, Blender y tinkercad.
+            <br />
+            <br /> Recientemente, completé un proyecto audiovisual donde
+            participé en todas las fases clave del desarrollo: desde la creación
+            del storyboard hasta el esculpido, modelado, aplicación de mapas UV,
+            rigging, y la animación. Este proyecto me permitió explorar cada
+            etapa del proceso creativo en animación 3D, combinando habilidades
+            técnicas y artísticas para dar vida a una narrativa visual. <br />
+            <br /> Estoy en constante aprendizaje y exploración de nuevas formas
+            de integrar la animación 3D con el desarrollo web y la programación.{" "}
+            <br />
+            <br /> Mi objetivo es seguir desarrollando habilidades en animación
+            3D y desarrollo web, creando proyectos innovadores que conecten
+            tecnología y arte de manera efectiva.
           </p>
         </div>
       </div>

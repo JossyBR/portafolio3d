@@ -19,15 +19,13 @@ const Proyectos = () => {
       {/* <div className="absolute left-0 top-0 lg:w-[550px] z-0">
         <img src={vector} alt="" />
       </div> */}
-      <h2 className="border border-black m-auto text-center text-xl md:text-3xl ml-2 font-bold md:mt-5 lg:mt-[25px] lg:text-5xl">
+      <h2 className="text-center text-xl font-bold md:text-3xl  md:mt-5 lg:mt-[25px] lg:text-5xl">
         Proyecto Audiovisual: Exodo Galactico!
       </h2>
       <section>
-        <div className="mt-10 flex flex-row flex-wrap justify-center items-center p-2 gap-6  lg:gap-4">
+        <div className="mt-10 flex flex-row flex-wrap justify-center items-center lg:gap-4">
           <iframe
-            className="md:w-[874] md:h-[491]"
-            width="300"
-            height="169"
+            className="w-[300px] h-[169px] md:w-[874px] md:h-[491px]"
             src="https://www.youtube.com/embed/N0I5acBGtkc?si=kurFj3Hr1Ar9gVGw"
             title="YouTube video player"
             frameborder="0"
@@ -42,14 +40,11 @@ const Proyectos = () => {
         {/* <h2 className="text-3xl ml-2 font-bold mb-10 md:mt-5 lg:mt-[25px] lg:text-5xl">
           De la Idea a la Realidad: Conoce como fue el proceso
         </h2> */}
-        <h2 className="mb-6 mt-6 font-bold text-lg text-center mx-1 md:text-2xl lg:text-4xl 2xl:mb-[32px]">
+        <h2 className="mb-6 mt-6 font-bold text-lg text-center md:text-2xl lg:text-4xl 2xl:mb-[32px]">
           De la Idea a la Realidad: Conoce como fue el proceso
         </h2>
-        <div className="flex flex-col">
-          {/* <h3 className="mb-6 mt-6 text-2xl text-center mx-1 lg:text-4xl 2xl:mb-[32px]">
-            Del Concepto al 3D: Esculpido Digital y Arte Conceptual
-          </h3> */}
-          <div className="m-auto mb-4 md:grid md:grid-cols-2 md:justify-center md:items-center">
+        <div className="flex flex-col justify-center items-center">
+          <div className="m-auto mb-4 justify-center items-center md:grid md:grid-cols-2 ">
             <div className="p-4 mb-3 text-center w-full max-w-md break-words">
               <p className="text-[#9333ea] font-bold mb-3 text-base mx-1 md:text-2xl">
                 Del Concepto al 3D: Esculpido Digital y Arte Conceptual
@@ -60,11 +55,9 @@ const Proyectos = () => {
                 explorando el proceso creativo paso a paso
               </p>
             </div>
-            <div>
+            <div className="flex justify-center">
               <iframe
-                className="w-[560] h-[315]"
-                width="300"
-                height="169"
+                className="w-[300px] h-[169px] md:w-[560px] md:h-[315px]"
                 src="https://www.youtube.com/embed/UGlY2nn_JOA?si=5_544WVjbxnNFy5i"
                 title="YouTube video player"
                 frameborder="0"
@@ -91,11 +84,9 @@ const Proyectos = () => {
                 Dando vida a otros elementos en el mundo del 3D!
               </p>
             </div>
-            <div>
+            <div className="flex justify-center">
               <iframe
-                className="w-[560] h-[315]"
-                width="300"
-                height="169"
+                className="w-[300px] h-[169px] md:w-[560px] md:h-[315px]"
                 src="https://www.youtube.com/embed/jWzsWOz4gnA?si=8PKwVyqJpLAUgnr3"
                 title="YouTube video player"
                 frameborder="0"
@@ -122,11 +113,9 @@ const Proyectos = () => {
                 deforme correctamente con cada movimiento.
               </p>
             </div>
-            <div>
+            <div className="flex justify-center">
               <iframe
-                className="w-[560] h-[315]"
-                width="300"
-                height="169"
+                className="w-[300px] h-[169px] md:w-[560px] md:h-[315px]"
                 src="https://www.youtube.com/embed/SR528jsi3Hs?si=D7nEF5hJZGzosHpE"
                 title="YouTube video player"
                 frameborder="0"
@@ -155,11 +144,9 @@ const Proyectos = () => {
                 detrás de cada toma y escena clave del proyecto
               </p>
             </div>
-            <div>
+            <div className="flex justify-center">
               <iframe
-                className="w-[560] h-[315]"
-                width="300"
-                height="169"
+                className="w-[300px] h-[169px] md:w-[560px] md:h-[315px]"
                 src="https://www.youtube.com/embed/zmVW8daYXCE?si=sPieppzBMYqzngyY"
                 title="YouTube video player"
                 frameborder="0"
