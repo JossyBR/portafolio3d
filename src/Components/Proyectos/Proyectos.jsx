@@ -14,18 +14,18 @@ import {
 
 const Proyectos = () => {
   return (
-    <div className="relative">
+    <div className="relative mb-3 bg-gradient-to-r from-indigo-200 via-purple-200 violet-300">
       <div className="h-16 "></div>
-      {/* <div className="absolute left-0 top-0 lg:w-[550px] z-0">
+      <div className="absolute left-0 top-0 md:w-[550px] z-0">
         <img src={vector} alt="" />
-      </div> */}
+      </div>
       <h2 className="text-center text-xl font-bold md:text-3xl  md:mt-5 lg:mt-[25px] lg:text-5xl">
         Proyecto Audiovisual: Exodo Galactico!
       </h2>
       <section>
         <div className="mt-10 flex flex-row flex-wrap justify-center items-center lg:gap-4">
           <iframe
-            className="w-[300px] h-[169px] md:w-[874px] md:h-[491px]"
+            className="w-[300px] h-[250px] md:w-[874px] md:h-[491px]"
             src="https://www.youtube.com/embed/N0I5acBGtkc?si=kurFj3Hr1Ar9gVGw"
             title="YouTube video player"
             frameborder="0"
@@ -52,12 +52,12 @@ const Proyectos = () => {
               <p>
                 Transformación del arte conceptual en esculturas digitales
                 detalladas. Desde el dibujo inicial hasta la escultura final,
-                explorando el proceso creativo paso a paso
+                explorando el proceso creativo paso a paso.
               </p>
             </div>
             <div className="flex justify-center">
               <iframe
-                className="w-[300px] h-[169px] md:w-[560px] md:h-[315px]"
+                className="w-[300px] h-[250px] md:w-[560px] md:h-[315px] "
                 src="https://www.youtube.com/embed/UGlY2nn_JOA?si=5_544WVjbxnNFy5i"
                 title="YouTube video player"
                 frameborder="0"
@@ -86,7 +86,7 @@ const Proyectos = () => {
             </div>
             <div className="flex justify-center">
               <iframe
-                className="w-[300px] h-[169px] md:w-[560px] md:h-[315px]"
+                className="w-[300px] h-[250px] md:w-[560px] md:h-[315px]"
                 src="https://www.youtube.com/embed/jWzsWOz4gnA?si=8PKwVyqJpLAUgnr3"
                 title="YouTube video player"
                 frameborder="0"
@@ -115,7 +115,7 @@ const Proyectos = () => {
             </div>
             <div className="flex justify-center">
               <iframe
-                className="w-[300px] h-[169px] md:w-[560px] md:h-[315px]"
+                className="w-[300px] h-[250px] md:w-[560px] md:h-[315px]"
                 src="https://www.youtube.com/embed/SR528jsi3Hs?si=D7nEF5hJZGzosHpE"
                 title="YouTube video player"
                 frameborder="0"
@@ -146,7 +146,7 @@ const Proyectos = () => {
             </div>
             <div className="flex justify-center">
               <iframe
-                className="w-[300px] h-[169px] md:w-[560px] md:h-[315px]"
+                className="w-[300px] h-[250px] md:w-[560px] md:h-[315px]"
                 src="https://www.youtube.com/embed/zmVW8daYXCE?si=sPieppzBMYqzngyY"
                 title="YouTube video player"
                 frameborder="0"
@@ -159,45 +159,45 @@ const Proyectos = () => {
         </div>
       </section>
 
-      <section className="flex flex-col justify-center items-center mt-10 mb-10">
+      <section className="flex flex-col justify-center items-center mt-10 bg-gradient-to-r from-indigo-200 via-purple-200 violet-300">
         <h3 className="mb-6 mt-6 font-bold text-center mx-1 text-base md:text-2xl  lg:text-4xl 2xl:mb-[32px]">
           Creaciones en 3D: Modelos Texturizados
         </h3>
-        <div className=" m-auto gap-4 grid grid-cols-2 md:gap-8 justify-center">
+        <div className="m-auto mb-2 gap-4 grid grid-cols-2 md:gap-8 justify-center">
           <div>
             <Image
               src={dona}
-              className="h-40 w-40 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px] opacity-75 hover:opacity-100"
+              className="h-36 w-40 shadow-lg shadow-indigo-500/50 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px]  transition duration-300 delay-150 hover:scale-75"
             />
           </div>
           <div>
             <Image
               src={nave}
-              className="h-40 w-40 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px] opacity-75 hover:opacity-100"
+              className="h-36 w-40 shadow-lg shadow-indigo-500/50 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px] transition duration-300 delay-150 hover:scale-75"
             />
           </div>
           <div>
             <Image
               src={personaje}
-              className="h-40 w-40 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px] opacity-75 hover:opacity-100"
+              className="h-36 w-40 shadow-lg shadow-indigo-500/50 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px] transition duration-300 delay-150 hover:scale-75"
             />
           </div>
           <div>
             <Image
               src={pistola}
-              className="h-40 w-40 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px] opacity-75 hover:opacity-100"
+              className="h-36 w-40 shadow-lg shadow-indigo-500/50 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px] transition duration-300 delay-150 hover:scale-75"
             />
           </div>
           <div>
             <Image
               src={silla}
-              className="h-40 w-40 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px] opacity-75 hover:opacity-100"
+              className="h-36 w-40 shadow-lg shadow-indigo-500/50 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px] transition duration-300 delay-150 hover:scale-75"
             />
           </div>
           <div>
             <Image
               src={tennis}
-              className="h-40 w-40 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px] opacity-75 hover:opacity-100"
+              className="h-36 w-40 shadow-lg shadow-indigo-500/50 md:w-72 md:h-60 lg:w-[450px] lg:h-[350px] transition duration-300 delay-150 hover:scale-75"
             />
           </div>
         </div>

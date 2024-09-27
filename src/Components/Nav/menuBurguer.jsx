@@ -13,26 +13,31 @@ export function MenuDefault() {
   return (
     <Menu>
       <MenuHandler>
-        <div className="mb-2 flex items-center gap-4 p-4 ">
+        <div className="mb-2 flex items-center gap-4 p-4">
           <img src={ep_menu} alt="brand" className="h-8 w-8  bg-[#9333ea]" />
         </div>
         {/* <Button>Menu</Button> */}
       </MenuHandler>
-      <MenuList>
+      <MenuList className="z-20 bg-gradient-to-r from-indigo-200 withe via-purple-300 ">
         <MenuItem>
-          <a href="#inicio">Inicio</a>
+          <a href="#inicio" className="font-bold">
+            Inicio
+          </a>
         </MenuItem>
         <MenuItem>
-          <a href="#acerca">Acerca de mi</a>
+          <a href="#acerca" className="font-bold">
+            Acerca de mi
+          </a>
         </MenuItem>
         <MenuItem>
-          <a href="#proyectos">Proyectos</a>
+          <a href="#proyectos" className="font-bold">
+            Proyectos
+          </a>
         </MenuItem>
         <MenuItem>
-          <a href="#habilidades">Habilidades</a>
-        </MenuItem>
-        <MenuItem>
-          <a href="#contactame">Contactame</a>
+          <a href="#contactame" className="font-bold">
+            Contactame
+          </a>
         </MenuItem>
       </MenuList>
     </Menu>

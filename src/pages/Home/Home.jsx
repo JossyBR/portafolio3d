@@ -9,7 +9,10 @@ import Proyectos from "../../Components/Proyectos/Proyectos";
 const Home = () => {
   return (
     <div>
-      <div id="inicio">
+      <div
+        id="inicio"
+        className="bg-gradient-to-r from-indigo-200 via-purple-200 violet-300"
+      >
         <div className="h-20 w-[100%] flex justify-center items-center z-50">
           <Nav />
         </div>

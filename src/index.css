@@ -3,22 +3,8 @@
 @tailwind utilities;
 
 :root {
-  /* background-image: linear-gradient(to bottom, #ffffff, #d8b4fe, #c084fc); */
-  /* position: relative; Mantén esto para el contenedor principal */
-  /* overflow: hidden; */
   color: #000000;
-  /* box-sizing: border-box; */
-  /* overflow: hidden; */
-
-  /* background-color: #262a2c; */
-  background-color: #f5f3ff;
-  color: #000000;
-  /* background-image: linear-gradient(to bottom, #ffffff, #d8b4fe, #c084fc); */
-  /* border: solid red; */
-  /* color: #ffffff; */
-  /* display: flex;
-  justify-content: center;
-  align-content: center; */
+  background-color: #ffffff;
 }
 
 p,

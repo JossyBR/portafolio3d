@@ -131,7 +131,7 @@ export const Formulario = () => {
           <Button
             type="submit"
             className="mt-6 bg-transparent border-2
-            border-[#9333ea] text-[#9333ea] font-semibold opacity-70 hover:opacity-100 hover:scale-105"
+            border-[#9333ea] text-white font-semibold hover:scale-105"
           >
             Enviar
           </Button>

@@ -50,13 +50,12 @@ const Inicio = () => {
                 Jossy Benitez
               </span>
             </span>
-            <br /> y soy Animadora 3D{" "}
+            <br /> y soy Animadora{" "}
+            <span className="text-[#9333ea] font-bold leading-loose">3D</span>{" "}
           </h1>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:w-48 md:h-48">
             {" "}
-            {/* Ajusta el tamaño del contenedor del vector */}
-            {/* <img src={vector} alt="Imagen" className="w-full h-full" />{" "} */}
-            {/* Ajusta el tamaño del vector */}
+            <img src={vector} alt="Imagen" className="w-full h-full" />{" "}
           </div>
         </div>
         <div
