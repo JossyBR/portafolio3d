@@ -63,7 +63,7 @@ const Inicio = () => {
         >
           <Image
             src={personaje}
-            className="w-60 h-60 md:w-96 md:h-80 rotate-3"
+            className="w-60 h-60 md:w-96 md:h-80 rotate-3 shadow-lg shadow-indigo-500/50"
           />
           {/* <img src={personaje} /> */}
           {/* Imágenes de habilidades */}
